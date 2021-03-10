@@ -33,7 +33,7 @@ jobs:
       
       - uses: borales/actions-yarn@v2.0.0      
         with:
-          cmd: install # will run `yarn install` comman 
+          cmd: yarn install # will run `yarn install` comman 
           
       - name: Build React App
         run: sudo su
